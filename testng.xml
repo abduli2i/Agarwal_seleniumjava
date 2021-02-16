@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AgarwalRegression.Test_Phar_Directsales_with_Discount"/>
+      <class name="AgarwalRegression.Test_Purchase_Order_Creation"/>
+      <class name="AgarwalRegression.Test_Optical_DirectSales"/>
+      <class name="AgarwalRegression.Test_Optical_PatientSales"/>
+      <class name="AgarwalRegression.Test_NewPatientRegistration"/>
+      <class name="AgarwalRegression.Test_Sales_History_Console"/>
+      <class name="AgarwalRegression.Test_Phar_Patientsales"/>
+      <class name="AgarwalRegression.Test_Billing_Multiple_services_WithDiscount"/>
+      <class name="AgarwalRegression.Test_OldpatientCheckin"/>
+      <class name="AgarwalRegression.Test_PO_to_GRN_Console"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="AgarwalRegression.Test_Create_Direct_GRN">
+        <methods>
+          <include name="Select_GRN_from_PO"/>
+        </methods>
+      </class> <!-- AgarwalRegression.Test_Create_Direct_GRN -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
